@@ -13,7 +13,8 @@ def solve():
             else:
                 current_calories += int(row)
     elves.sort(reverse=True)
-    print(elves[0]+elves[1]+elves[2])
+    print(elves[0] + elves[1] + elves[2])
+
 
 if __name__ == "__main__":
     solve()
