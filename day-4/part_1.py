@@ -3,7 +3,7 @@ INPUT_FILE = "input_4.txt"
 
 def solve():
     count = 0
-    with open(INPUT_FILE, "r+") as input_file:
+    with open(INPUT_FILE, "r") as input_file:
         for row in input_file:
             row = row.strip("\n")
             ranges = row.split(",")

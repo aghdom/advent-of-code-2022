@@ -5,7 +5,7 @@ def solve():
     map = []
     visibility_map = []
     row_len = None
-    with open(INPUT_FILE, "r+") as input_file:
+    with open(INPUT_FILE, "r") as input_file:
         i = 0
         for row in input_file:
             row = row.strip("\n")

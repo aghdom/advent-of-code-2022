@@ -23,7 +23,7 @@ def decide_outcome(player: str, opponent: str) -> str:
 
 def solve():
     total_score = 0
-    with open(INPUT_FILE, "r+") as input_file:
+    with open(INPUT_FILE, "r") as input_file:
         for row in input_file:
             round_score = 0
             row = row.strip("\n")

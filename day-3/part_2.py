@@ -13,7 +13,7 @@ def solve():
     i = 0
     total = 0
     group = []
-    with open(INPUT_FILE, "r+") as input_file:
+    with open(INPUT_FILE, "r") as input_file:
         for row in input_file:
             row = row.strip("\n")
             i += 1

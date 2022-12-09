@@ -5,7 +5,7 @@ def solve():
     map = []
     scenic_map = []
     row_len = None
-    with open(INPUT_FILE, "r+") as input_file:
+    with open(INPUT_FILE, "r") as input_file:
         for row in input_file:
             row = row.strip("\n")
             if not row_len:

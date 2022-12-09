@@ -3,7 +3,7 @@ MARKER_LEN = 4
 
 
 def solve():
-    with open(INPUT_FILE, "r+") as input_file:
+    with open(INPUT_FILE, "r") as input_file:
         for row in input_file:
             row = row.strip("\n")
             for i in range(len(row) - MARKER_LEN):

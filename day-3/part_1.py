@@ -11,7 +11,7 @@ def get_priority(item: str) -> int:
 
 def solve():
     total = 0
-    with open(INPUT_FILE, "r+") as input_file:
+    with open(INPUT_FILE, "r") as input_file:
         for row in input_file:
             row = row.strip("\n")
             comp_size = int(len(row) / 2)

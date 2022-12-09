@@ -23,7 +23,7 @@ def construct_stacks(diagram: deque) -> list:
 def solve():
     diagram = deque()
     stacks = []
-    with open(INPUT_FILE, "r+") as input_file:
+    with open(INPUT_FILE, "r") as input_file:
         for row in input_file:
             row = row.strip("\n")
             if stacks == [] and row != "":
